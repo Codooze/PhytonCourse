@@ -42,16 +42,54 @@ def funcion1(numero):
 
 def funcion2():
     # Escribe el código de la segunda opción aquí
-    print("El nuevo dígito es ")
+    numero1 = input()
+    numero2 = input()
+    numeroLen1 = int(len(numero1))
+    numeroLen2 = int(len(numero2))
+    if numeroLen1 == 3 == numeroLen2:
+        n1a = int(numero1[0])
+        n2a = int(numero1[1])
+        n3a = int(numero1[2])
+        n1b = int(numero2[0])
+        n2b = int(numero2[1])
+        n3b = int(numero2[2])
+        if n1a < n2a > n3a:
+            n_mayor = n2a
+        elif n2a < n1a > n3a:
+            n_mayor = n1a
+        else:
+            n_mayor = n3a
+
+        if n1b > n2b < n3b:
+            n_menor = n2b
+        elif n2b > n1b < n3b:
+            n_menor = n1b
+        else:
+            n_menor = n3b
+    if numeroLen1 != 3 != numeroLen2:
+        print("Numero de digitos ingresado incorrecto")
+    else:
+        union_n = str(n_mayor) + str(n_menor)
+        int(union_n)
+        print("El nuevo dígito es ", union_n)
 
 
 def funcion3():
-    # Escribe el código de la tercera opción aquí
-    print("El nuevo dígito es ")
+    numero = input()
+    numeroLen = int(len(numero))
+    if numeroLen == 3:
+        n_minimo = int(min(numero))
+        n_maximo = int(max(numero))
+        n1 = int(numero[0])
+        n2 = int(numero[1])
+        n3 = int(numero[2])
+        n_intermedio = (n1+n2+n3) - (n_minimo + n_maximo)
+        union_n = str(n_maximo) + str(n_intermedio) + str(n_minimo)
+    print("El nuevo dígito es ", union_n)
 
 
 # if __name__ == "__main__":
     # Escribe el código aquí para que el usuario seleccione una opción. Llamas cada opción como
 funcion1(numero)
-# funcion2()
-# funcion3()
+funcion2()
+funcion3()
