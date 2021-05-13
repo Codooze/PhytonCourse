@@ -87,9 +87,22 @@ def funcion3():
         union_n = str(n_maximo) + str(n_intermedio) + str(n_minimo)
     print("El nuevo dígito es ", union_n)
 
+# * Año bisiesto
+
+
+def funcion4():
+    año = int(input())
+    if año % 4 == 0 and año % 100 != 0:
+        print("Es bisiesto")
+    elif año % 100 == 0 and año % 400 != 0:
+        print("No es bisiesto")
+    else:
+        print("es bisiesto")
+
 
 # if __name__ == "__main__":
     # Escribe el código aquí para que el usuario seleccione una opción. Llamas cada opción como
 funcion1(numero)
 funcion2()
 funcion3()
+funcion4()
