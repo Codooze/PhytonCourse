@@ -21,7 +21,7 @@ def actividad1():
     print("actividad1")
     numero = int(input("ingresa tu numero: "))
     i = 2
-    while i <= numero:
+    while i < numero:
         if i % 2 == 0:
             print(i)
             i += 1

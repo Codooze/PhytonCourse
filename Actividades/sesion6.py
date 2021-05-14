@@ -36,8 +36,10 @@ def funcion1(numero):
             result = n4
     if numeroLen < 4 or numeroLen > 4:
         print("Numero de digitos ingresado incorrecto")
+    if result % 2 == 0:
+        print(f"El mayor dígito es {result} y es par")
     else:
-        print("El mayor dígito es ", result)
+        print(f"el mayor dígito es {result} y no es par")
 
 
 def funcion2():
