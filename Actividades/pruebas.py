@@ -1,3 +1,4 @@
+import math
 # 2D lists
 a = ["a", "b", "c"], [1, 2, 3, 4]
 print(a[0][-2])
@@ -6,11 +7,11 @@ print(a[0][-2])
 numero = "1234"
 print("this shit: ", int(numero[1]))
 
-# esto
-a = 5
-a = a + 5
-print(a)
-# es lo mismo q esto
-b = 5
-b += 5  # solo q aqui esta abreviado
-print(b)
+n = "12364"
+print("Minimo: ", min("342"))
+
+# para entender parte de la funcion3 session6
+n1 = int((n[0]))
+n2 = int(n[1])
+result = n1 + n2
+print("result: ", result)
