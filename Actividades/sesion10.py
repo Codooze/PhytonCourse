@@ -127,7 +127,8 @@ def numeros():
             print("impar:", lst_impares[0])
             del lst_impares[0]
             par_or_impar_counter += 1
-        else:
+        if len(lst_pares) == 0 == len(lst_impares):
+            print("done")
             False
 
 
