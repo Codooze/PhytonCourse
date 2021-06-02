@@ -44,3 +44,11 @@ print("////////////////////////////")
 coleciones = "jeison"
 for i in coleciones:
     print(f"{i}", end=" ")
+
+
+# For example, a function that prints all odd numbers in a list would look like this:
+
+def odd_nums(lst):
+    for item in lst:
+        if item % 2 == 1:
+            print(item)

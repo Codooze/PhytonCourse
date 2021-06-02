@@ -94,7 +94,7 @@ def actividad3():
     # Escribe un algoritmo que lea 10 números e imprima cuantos son positivos, cuantos negativos y cuantos neutros(0).
 
 
-actividad3()
+# actividad3()
 
 # string = "123132-1"
 # string_len = len(string)
@@ -115,6 +115,19 @@ actividad3()
 
 def actividad4():
     print("actividad4")
-    # Usando tanto while como for, escribe el codigo que pida números al usuario hasta que este ingrese -1 y que retorne el factorial de cada número ingresado usando un ciclo Para (For).
+    num = 0
+    factorial = 1
+    while num != -1:
+        num = input("add a new number: ")
+        for i in range(1, int(num)+1):
+            factorial = factorial*i
+        print(factorial)
+        if num == -1:
+            break
 
-# actividad4()
+
+# Usando tanto while como for, escribe el codigo que pida números al usuario hasta que este ingrese -1 y que retorne el factorial de
+# cada número ingresado usando un ciclo Para (For).
+actividad4()
+
+

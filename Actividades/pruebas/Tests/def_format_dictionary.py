@@ -7,17 +7,6 @@
 # print(fun()[0])
 
 
-# def suma_todo():
-#     a = 0
-#     b = 0
-#     a += 1
-#     b += 1
-#     return a, b
-
-
-# print(suma_todo())
-
-
 # def hello():
 #     a = 1
 #     hello.counter += 1
@@ -31,15 +20,6 @@
 
 # x = 0
 
-
-# def cuentalotodo(x):
-#     x += 1
-#     return x
-
-
-# x = cuentalotodo(x)
-# x = cuentalotodo(x)
-# print("x: ", x)
 
 # # format usage
 # a = 1.41342

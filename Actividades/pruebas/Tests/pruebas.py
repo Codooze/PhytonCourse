@@ -1,4 +1,5 @@
 import math
+import numpy as np
 # 2D lists
 a = ["a", "b", "c"], [1, 2, 3, 4]
 print(a[0][-2])
@@ -15,3 +16,7 @@ n1 = int((n[0]))
 n2 = int(n[1])
 result = n1 + n2
 print("result: ", result)
+
+m = np.matrix("1 2 3 4; 5 45 8 5")
+print(m)
+print(1**5)
