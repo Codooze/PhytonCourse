@@ -74,7 +74,7 @@ def actividad2(luz):  # !añadiendo aqui actividad1 y corriendo la funcion asi: 
     # Verde -------- Si hay peaton - Pare, Sino - Siga
     # Amarillo ----------- Si hay peaton - Pare, Sino - Precaución
     # Rojo = Pare
-
+    #hihihihihihihihihhi
 
 actividad2(luz)
 
