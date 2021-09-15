@@ -74,7 +74,7 @@ def actividad2(luz):  # !añadiendo aqui actividad1 y corriendo la funcion asi: 
     # Verde -------- Si hay peaton - Pare, Sino - Siga
     # Amarillo ----------- Si hay peaton - Pare, Sino - Precaución
     # Rojo = Pare
-
+ 
 
 actividad2(luz)
 
@@ -91,7 +91,7 @@ selecióne una de las siguientes opciones
 """)
 operacion = int(input())
 
-
+#hello
 def actividad3(numero):
     if numero == 1:
         result = a + b
